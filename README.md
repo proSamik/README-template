@@ -1,4 +1,4 @@
-# Your Blog Title Here
+# Blog Post Title: **[Your Blog Title Here]**
 
 ---
 
@@ -77,7 +77,7 @@ npm install
 [![Video Title](https://via.placeholder.com/600x300)](https://youtube.com "Watch Video")
 
 ### SVG Example
-```
+```html
 <svg width="100" height="100">
   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
 </svg>
@@ -85,10 +85,6 @@ npm install
 
 ### GIF
 ![Funny GIF](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
-
-
-Product Demo in Trainer Kit 
-https://youtu.be/cn8MsmLzOQQ
 
 ---
 
@@ -111,6 +107,11 @@ https://youtu.be/cn8MsmLzOQQ
   Hidden content revealed!
 </details>
 
+### Footnotes
+Here is an example of a footnote[^1].
+
+[^1]: This is the footnote text.
+
 ### Mathematical Equation
 The famous equation:  
 \[ E = mc^2 \]
@@ -123,3 +124,5 @@ The famous equation:
 ## Conclusion
 Thanks for reading this blog! Please share your thoughts below.  
 
+**Did you find this helpful?**  
+[Click Here to Leave a Comment](#)
