@@ -77,7 +77,7 @@ npm install
 [![Video Title](https://via.placeholder.com/600x300)](https://youtube.com "Watch Video")
 
 ### SVG Example
-```html
+```
 <svg width="100" height="100">
   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
 </svg>
@@ -106,11 +106,6 @@ npm install
   <summary>Click to expand!</summary>
   Hidden content revealed!
 </details>
-
-### Footnotes
-Here is an example of a footnote[^1].
-
-[^1]: This is the footnote text.
 
 ### Mathematical Equation
 The famous equation:  
