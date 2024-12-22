@@ -20,6 +20,7 @@ Here's a quick example of text formatting:
 - *Italic*
 - ~~Strikethrough~~
 - ***Combined formatting***
+- <u>Underlined</u>
 
 ---
 
