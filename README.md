@@ -103,15 +103,6 @@ https://youtu.be/cn8MsmLzOQQ
 
 ## Interactive Features
 
-### Blockquote
-> This is a **blockquote** example to highlight content.
-
-### Spoiler/Expandable Section
-<details>
-  <summary>Click to expand!</summary>
-  Hidden content revealed!
-</details>
-
 ### Footnotes
 Here is an example of a footnote[^1].
 
@@ -122,6 +113,17 @@ Example of third footnote[^3].
 [^1]: This is the footnote text.
 [^2]: This is the second footnote text.
 [^3]: This is the third footnote text.
+
+### Blockquote
+> This is a **blockquote** example to highlight content.
+
+### Spoiler/Expandable Section
+<details>
+  <summary>Click to expand!</summary>
+  Hidden content revealed!
+</details>
+
+
 
 ### Mathematical Equation
 The famous equation:  
