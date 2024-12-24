@@ -115,7 +115,13 @@ https://youtu.be/cn8MsmLzOQQ
 ### Footnotes
 Here is an example of a footnote[^1].
 
+Example of second footnote[^2].
+
+Example of third footnote[^3].
+
 [^1]: This is the footnote text.
+[^2]: This is the second footnote text.
+[^3]: This is the third footnote text.
 
 ### Mathematical Equation
 The famous equation:  
