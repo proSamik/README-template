@@ -1,5 +1,6 @@
-# Blog Post Title
+# How to write the README that [prosamik](https://www.prosamik.com) can understand [[README template]](https://github.com/proSamik/demo-template/edit/main/README.md)
 
+### Content shows the rendered template from this [repo](https://github.com/proSamik/demo-template/edit/main/README.md)
 ---
 
 ## Table of Contents
@@ -9,7 +10,8 @@
 4. [Lists and Points](#lists-and-points)
 5. [Media Elements](#media-elements)
 6. [Interactive Features](#interactive-features)
-7. [Conclusion](#conclusion)
+7. [Most Important- Github Badges](#github-badges)
+8. [Conclusion](#conclusion)
 
 ---
 
@@ -70,12 +72,15 @@ npm install
 ---
 
 ## Media Elements
+(All will be centered aligned)
 
-### Images
-![Sample Image](https://via.placeholder.com/600x300 "Sample Image Title")
+### Image
+![Direct rendering](https://prosamik.com/image/og-Image.png)
 
-### Videos
-[![Video Title](https://via.placeholder.com/600x300)](https://youtube.com "Watch Video")
+### Image with fix width and height
+(Use inline HTML for that)
+<p><img src="https://prosamik.com/favicon.png" width="200" height="200" alt="alt text"></p>
+
 
 ### SVG Example
 ```html
@@ -88,7 +93,7 @@ npm install
 ![Funny GIF](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
 
 
-Product Demo in Trainer Kit- 
+Video Example- 
 https://youtu.be/cn8MsmLzOQQ
 
 ---
@@ -112,15 +117,15 @@ https://youtu.be/cn8MsmLzOQQ
 ## Interactive Features
 
 ### Footnotes
-Here is an example of a footnote[^1].
+Here is an example of a footnote- Important tip[^1].
 
-Example of second footnote[^2].
+Example of second footnote- Benefit[^2].
 
-Example of third footnote[^3].
+Example of third footnote- Our benefit[^3].
 
-[^1]: This is the footnote text.
-[^2]: This is the second footnote text.
-[^3]: This is the third footnote text.
+[^1]: Github uses GitHub Flavoured Markdown.
+[^2]: It supports inline HTML.
+[^3]: We can give the style we want but it will not understand.
 
 ### Blockquote
 > This is a **blockquote** example to highlight content.
@@ -131,14 +136,61 @@ Example of third footnote[^3].
   Hidden content revealed!
 </details>
 
-
-
 ### Mathematical Equation
 The famous equation:  
 \[ E = mc^2 \]
 
 ### Progress Bar
 `[■■■■■□□□□□] 50% Complete`
+
+---
+## GitHub Badges
+I know you love some visual elements and that is also covered here:
+
+### - Use directly 
+(Center aligned automatically in prosamik as it is treated as images)
+
+![Sponsor Badge](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)
+
+### - Appear in different lines
+(again, centre-aligned in prosamik as each one as treated as single entity)
+
+ ![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+ ![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+ ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+ ![node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+ ![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)
+
+### - Appear in the same line
+ (use inline HTML which Github Flavoured Markdown understands and using style which prosamik understands)
+ 
+<div style="display: flex; width: 100%; align-items: center;">
+    <a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/badge/Profile%20Since-red" alt="Profile Since" /></a>
+    <a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/badge/01--Nov--2020-grey" alt="01/11/2020 - Present" /></a>
+    <a href="https://linkedin.com/in/proSamik" style="margin-left: auto;"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Profile Views" /></a>
+</div>
+
+### - Same line but few left and right-aligned
+ (give align="right" to img tag)
+ Note: (use inline HTML which Github Flavoured Markdown understands and using style which prosamik understands)
+<div style="display: flex; width: 100%; align-items: center;">
+    <a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Profile Since" /></a>
+    <a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></a>
+    <a href="https://linkedin.com/in/proSamik" style="margin-left: auto;"><img src="https://komarev.com/ghpvc/?username=proSamik&label=Profile%20views&color=2363F7&style=flat" alt="Profile Views" align="right" /></a>
+        <a href="https://linkedin.com/in/proSamik" style="margin-left: auto;"><img src="https://img.shields.io/github/followers/prosamik" alt="Profile Views" align="right" /></a>
+</div>
+
+### - Text on left and badge on right
+(use inline HTML which Github Flavoured Markdown understands and using style which prosamik understands)
+<div style="display: flex; width: 100%; align-items: center;"><span>- 📫 Reach me here for collaborations and help</span><a href="mailto:dev.samikc@gmail.com" "><img src="https://img.shields.io/badge/dev.samikc@gmail.com-red" alt="Email" align="right"/></a></div>
+
+#### -- Vice-versa
+(use p tags instead of span)
+
+<div style="display: flex; width: 100%; align-items: center;">
+    <a href="mailto:dev.samikc@gmail.com"><img src="https://img.shields.io/badge/dev.samikc@gmail.com-red" alt="Email" style="margin-right: auto;" align="left" /></a>
+    <p align="right" >- 📫 Reach me here for collaborations and help</p>
+</div>
 
 ---
 
