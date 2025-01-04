@@ -177,15 +177,6 @@ I know you love some visual elements and that is also covered here:
     <a href="https://linkedin.com/in/proSamik" style="margin-left: auto;"><img src="https://komarev.com/ghpvc/?username=proSamik&label=Profile%20views&color=2363F7&style=flat" alt="Profile Views" align="right" /></a><a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/github/followers/prosamik" alt="Followers" align="right" /></a>
 </div>
 
-<br>
-
-### - Text on left and badge on right
-(use inline HTML which Github Flavoured Markdown understands and using style which prosamik understands)
-
-<br>
-<div style="display: flex; width: 100%; align-items: center;">📫 Reach me here for collaborations and help<a href="mailto:dev.samikc@gmail.com" "><img src="https://img.shields.io/badge/dev.samikc@gmail.com-red" alt="Email" align="right"/></a></div>
-<br>
-
 ---
 
 ## Conclusion
