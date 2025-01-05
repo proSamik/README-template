@@ -179,6 +179,18 @@ I know you love some visual elements and that is also covered here:
 
 ---
 
+
+```mermaid
+graph TB
+  ReactJS["ReactJS"]
+  Components["Components"]
+  ReactJS -->|"Building Blocks"| Components
+  Components --> ClassComponents["Class Components"]
+  Components --> FunctionalComponents["Functional Components"]
+  ClassComponents --> State["State"]
+  FunctionalComponents --> Hooks["Hooks"] 
+```
+
 ## Conclusion
 Thanks for reading this blog! Please share your thoughts below.  
 
