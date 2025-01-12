@@ -1,4 +1,4 @@
-# Productive Tmux Setup you should have
+# Tmux Mystery Solved
 
 ## Step 1: Install Tmux
 
