@@ -23,7 +23,6 @@ Here's a quick example of text formatting:
 - ~~Strikethrough~~
 - ***Combined formatting***
 - <u>Underlined</u>
-- - [ ] Checklist 
 
 ---
 
