@@ -1,6 +1,6 @@
 # Best Practices for Writing a Clear and Effective Project README
 
-![README Banner](images/readme-banner.png)
+![README Banner](./images/readme-banner.png)
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
