@@ -1,4 +1,4 @@
-# Basics of VPS
+# VPS Mastery: From Bare Metal to CI/CD Automation in 16 Steps
 
 ## Step by Step process
 

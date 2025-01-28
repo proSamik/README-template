@@ -1,4 +1,4 @@
-# VPS Checklist
+# Production-Ready VPS Setup: A Practical Checklist
 
 Production Ready Requirements
 

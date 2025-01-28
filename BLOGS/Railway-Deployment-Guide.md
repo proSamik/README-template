@@ -1,9 +1,10 @@
-# Railway.app Deployment Guide
-*The fast, budget-friendly cloud platform that makes deployment a breeze for new developers*
+# Railway.com Deployment Guide: From Zero to Deployed in Minutes
+
+## The fast, budget-friendly cloud platform that makes deployment a breeze for new developers
 
 *Your express train to the cloud - simple, affordable, and perfect for beginners*
 
-## Why Railway.app?
+## Why Railway.com?
 - Zero infrastructure configuration
 - Pay-as-you-go pricing (starts free)
 - Built-in CI/CD with GitHub integration
@@ -13,7 +14,7 @@
 
 ## Prerequisites
 - GitHub account
-- Railway.app account
+- Railway.com account
 - Basic understanding of Docker
 
 ## Deploying Services
@@ -30,8 +31,8 @@ RUN go build -o main .
 CMD ["./main"]
 ```
 
-2. Connect to Railway.app
-   - Log in to Railway.app with GitHub
+2. Connect to Railway.com
+   - Log in to Railway.com with GitHub
    - Create a new project
    - Choose "Deploy from GitHub repo"
    - Select your repository
@@ -67,7 +68,7 @@ CMD ["npm", "start"]
 
 2. Access Database
    ```env
-   DATABASE_URL=postgresql://postgres:password@containers-us-west-1.railway.app:5432/railway
+   DATABASE_URL=postgresql://postgres:password@containers-us-west-1.railway.com:5432/railway
    ```
 
 ## Environment Management
@@ -122,6 +123,6 @@ CMD ["npm", "start"]
    - Performance problems: Monitor resource usage
 
 2. Support Resources
-   - Railway.app documentation
+   - Railway.com documentation
    - Community forums
    - GitHub issue templates

@@ -1,4 +1,4 @@
-# Best Practices for Project README
+# Best Practices for Writing a Clear and Effective Project README
 
 ![README Banner](images/readme-banner.png)
 
