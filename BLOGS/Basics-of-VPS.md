@@ -1,8 +1,10 @@
-# Step by Step process
+# Basics of VPS
+
+## Step by Step process
 
 1. Initial VPS Setup:
 ```bash
-# SSH into your VPS
+# SSH into your VPS (root is the username)
 ssh root@your_vps_ip
 
 # Update system
