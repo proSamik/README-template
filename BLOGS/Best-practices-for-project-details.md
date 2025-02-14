@@ -136,7 +136,7 @@ project/
 ## Contribution Framework
 
 ### Getting Started
-> For basic setup instructions, please refer to our [README.md](README.md)
+> For basic setup instructions, please refer to our [README.md](http://localhost:3002/proSamik/Blog-notes/blob/main/Best-Practices-for-project-readme.md)
 
 ### Advanced Setup
 1. **Development Environment**
