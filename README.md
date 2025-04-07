@@ -187,7 +187,7 @@ I know you love some visual elements and that is also covered here:
 <div style="display: flex; width: 100%; align-items: center;">
     <a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Profile Since" /></a>
     <a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></a>
-    <a href="https://github.com/prosamik" style="margin-left: auto;"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fprosamik%2FREADME-template&count_bg=%23109BEF&title_bg=%233B3636&title=README-Template&edge_flat=false" alt="Readme count" align="right" /></a><a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/github/followers/prosamik" alt="Followers" align="right" /></a>
+    <a href="https://github.com/prosamik" style="margin-left: auto;"><img src="https://komarev.com/ghpvc/?username=prosamik-README-template&label=README-Template&count_bg=%23109BEF&title_bg=%233B3636&title=README-Template&edge_flat=false" alt="Readme count" align="right" /></a><a href="https://linkedin.com/in/proSamik"><img src="https://img.shields.io/github/followers/prosamik" alt="Followers" align="right" /></a>
 </div>
 
 ---
